@@ -1,0 +1,3 @@
+Adds a few simple helper methods that can be used with ActiveRecord::select.
+
+This project uses MIT-LICENSE.

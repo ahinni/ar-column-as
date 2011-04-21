@@ -72,3 +72,60 @@ Migrating to CreateFoos (20110420205046)
   [1m[36mFoo Load (0.1ms)[0m  [1mSELECT strftime('%m', published_at) AS 'month' FROM "foos" ORDER BY foos.id DESC LIMIT 1[0m
   [1m[35mAREL (0.3ms)[0m  INSERT INTO "foos" ("published_at", "created_at", "updated_at") VALUES ('1971-05-29 05:00:00.000000', '2011-04-20 21:02:38.965322', '2011-04-20 21:02:38.965322')
   [1m[36mFoo Load (0.1ms)[0m  [1mSELECT strftime('%Y', published_at) AS 'year' FROM "foos" ORDER BY foos.id DESC LIMIT 1[0m
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateFoos (20110420205046)
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "foos" ("published_at", "created_at", "updated_at") VALUES ('2971-05-29 05:00:00.000000', '2011-04-21 03:20:01.665346', '2011-04-21 03:20:01.665346')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "foos" ("published_at", "created_at", "updated_at") VALUES ('1971-05-29 05:00:00.000000', '2011-04-21 03:20:01.733006', '2011-04-21 03:20:01.733006')[0m
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateFoos (20110420205046)
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "foos" ("published_at", "created_at", "updated_at") VALUES ('2971-05-29 05:00:00.000000', '2011-04-21 03:24:37.046208', '2011-04-21 03:24:37.046208')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "foos" ("published_at", "created_at", "updated_at") VALUES ('1971-05-29 05:00:00.000000', '2011-04-21 03:24:37.109572', '2011-04-21 03:24:37.109572')[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateFoos (20110420205046)
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "foos" ("published_at", "created_at", "updated_at") VALUES ('2971-05-29 05:00:00.000000', '2011-04-21 03:25:15.934078', '2011-04-21 03:25:15.934078')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "foos" ("published_at", "created_at", "updated_at") VALUES ('1971-05-29 05:00:00.000000', '2011-04-21 03:25:15.997593', '2011-04-21 03:25:15.997593')[0m
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateFoos (20110420205046)
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "foos" ("published_at", "created_at", "updated_at") VALUES ('2971-05-29 05:00:00.000000', '2011-04-21 03:26:02.130487', '2011-04-21 03:26:02.130487')
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "foos" ("published_at", "created_at", "updated_at") VALUES ('1971-05-29 05:00:00.000000', '2011-04-21 03:26:02.193546', '2011-04-21 03:26:02.193546')[0m
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateFoos (20110420205046)
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "foos" ("published_at", "created_at", "updated_at") VALUES ('2971-05-29 05:00:00.000000', '2011-04-21 03:27:09.553146', '2011-04-21 03:27:09.553146')
+  [1m[36mFoo Load (0.1ms)[0m  [1mSELECT strftime('%m', published_at) AS 'month' FROM "foos" ORDER BY foos.id DESC LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "foos" ("published_at", "created_at", "updated_at") VALUES ('1971-05-29 05:00:00.000000', '2011-04-21 03:27:09.615203', '2011-04-21 03:27:09.615203')
+  [1m[36mFoo Load (0.1ms)[0m  [1mSELECT strftime('%Y', published_at) AS 'year' FROM "foos" ORDER BY foos.id DESC LIMIT 1[0m

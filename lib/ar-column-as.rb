@@ -22,17 +22,19 @@ module ActiveRecord
   end
 end
 
-def db_column_as(column, options = {})
-  out = [column]
-  out << "AS '#{options[:as]}'" if options[:as]
-  out.join(' ')
-end
+module Sql
+  def Sql.column_as(column, options = {})
+    out = [column]
+    out << "AS '#{options[:as]}'" if options[:as]
+    out.join(' ')
+  end
 
-def db_year(column, options = {})
-  db_column_as(ActiveRecord::Base.connection.year_calc(column), options)
-end
+  def Sql.year(column, options = {})
+    column_as(ActiveRecord::Base.connection.year_calc(column), options)
+  end
 
-def db_month(column, options = {})
-  db_column_as(ActiveRecord::Base.connection.month_calc(column), options)
+  def Sql.month(column, options = {})
+    column_as(ActiveRecord::Base.connection.month_calc(column), options)
+  end
 end
 

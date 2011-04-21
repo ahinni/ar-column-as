@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 gemspec
 
-gem "rails"
+gem "rails", "~> 3.0"
 
 gem 'sqlite3'
 

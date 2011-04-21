@@ -1,3 +1,0 @@
-= Ar-column-as
-
-This project rocks and uses MIT-LICENSE.
