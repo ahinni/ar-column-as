@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = 'ar-column-as'
 
-  s.files = Dir["{app,lib,config}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.rdoc"]
+  s.files = Dir["{app,lib,config}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README"]
   s.require_paths = ['lib']
 end
