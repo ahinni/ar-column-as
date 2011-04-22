@@ -2,15 +2,15 @@
 # project in your rails apps through git.
 Gem::Specification.new do |s|
   s.name = "ar-column-as"
-  s.version = "0.0.2"
+  s.version = "0.0.3"
   s.authors = ["Aaron Hinni"]
   s.email   = ["aaron@vedadev.com"]
-  s.homepage= 'http://vedadev.com'
-  s.summary = "Basic column_as support for ActiveRecord"
-  s.description = "Basic column_as support for ActiveRecord"
+  s.homepage= 'https://github.com/ahinni/ar-column-as'
+  s.summary = "Adds a few simple helper methods that can be used with ActiveRecord::select."
+  s.description = "Adds a few simple helper methods that can be used with ActiveRecord::select."
 
   #s.rubyforge_project = 'ar-column-as'
 
-  s.files = Dir["{app,lib,config}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README"]
+  s.files = Dir["{app,lib,config}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.rdoc"]
   s.require_paths = ['lib']
 end
