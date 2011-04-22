@@ -4,7 +4,7 @@ Adds a few simple helper methods that can be used with ActiveRecord::select.
 
 == Installation
 
-gem install ar-column-as
+  gem install ar-column-as
 
 == Example
 
