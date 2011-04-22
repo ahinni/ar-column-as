@@ -1,0 +1,18 @@
+== ar-column-as
+
+Adds a few simple helper methods that can be used with ActiveRecord::select.
+
+== Installation
+
+gem install ar-column-as
+
+== Example
+
+  BlogPost.all(
+    :select => [Sql.year(:published_at, :as => :year), Sql.month(:published_at, :as => :month), Sql.column_as('count(id)', :as => :posts)].join(', '),
+    :group => [Sql.year(:published_at), Sql.month(:published_at)].join(', '),
+    :limit => 12
+  )
+
+
+This project uses MIT-LICENSE.
